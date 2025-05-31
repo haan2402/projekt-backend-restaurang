@@ -51,3 +51,8 @@ function writeMenu(menu) {
         }
     });
 }
+
+//eventlyssnare för knapp på startsida, så när man klickar kommer man till meny sidan
+document.getElementById('meny-button').addEventListener('click', () => {
+        window.location.href = 'meny.html';
+    });
