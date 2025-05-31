@@ -47,6 +47,7 @@ nav a:hover {
 
 .current {
     text-decoration: underline;
+    color: #C85503;
 }
 
 /*styling about page*/

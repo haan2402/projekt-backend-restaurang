@@ -47,8 +47,10 @@ nav a:hover {
 
 .current {
     text-decoration: underline;
+    color: #C85503;
 }
 
+/*styling for how the menu presents*/
 .meny-container {
     display: flex;
     flex-wrap: wrap;
@@ -58,7 +60,8 @@ nav a:hover {
 
 .meny-cat {
     width: 45%;
-    margin-bottom: 3em;
+    margin-bottom: 4em;
+    margin-top: 2em;
 }
 
 .meny-cat h2 {
@@ -72,6 +75,8 @@ nav a:hover {
 
 .meny-list {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .meny-list li {
@@ -79,6 +84,38 @@ nav a:hover {
     margin-bottom: 0.5em;
 }
 
+.meny-item {
+    padding: 15px 0;
+}
+
+.dish-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.dish-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.dish-name {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.dish-desc {
+    font-size: 0.9em;
+    font-style: italic;
+    margin-top: 4px;
+    max-width: 30em;
+}
+
+.dish-price {
+    font-size: 0.9em;
+    font-weight: bold;
+}
 
 footer h3 {
     color: #C85503;

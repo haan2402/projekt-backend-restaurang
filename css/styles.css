@@ -47,6 +47,7 @@ nav a:hover {
 
 .current {
     text-decoration: underline;
+    color: #C85503;
 }
 
 /*background image for startpage, and styling for startpage*/
