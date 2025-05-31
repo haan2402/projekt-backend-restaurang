@@ -117,3 +117,47 @@ footer {
     color: white;
     line-height: 1.2em;
 }
+
+/*styling for mobile device*/
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1em;
+    }
+
+    nav ul {
+        flex-direction: row;
+        gap: 1.5em;
+        margin-left: 4em;
+    }
+
+    h1 {
+        margin-bottom: 0.5em;
+        margin-left: 5em;
+    }    
+
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        width: 100%;
+    }
+
+    .about-image {
+        width: 100%;
+        height: auto;
+        max-height: 600px;
+    }
+
+    .about-text {
+        max-width: 100%;
+        margin-top: 1em;
+    }
+}

@@ -113,3 +113,36 @@ footer {
     color: white;
     line-height: 1.2em;
 }
+
+/*styling for mobile device*/
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1em;
+    }
+
+    nav ul {
+        flex-direction: row;
+        gap: 1.5em;
+        margin-left: 4em;
+    }
+
+    h1 {
+        margin-bottom: 0.5em;
+        margin-left: 5em;
+    }
+
+    main {
+        width: auto;
+        height: 600px;
+        padding: 1em 2em;
+    }
+
+    .start-text {
+        position: static;
+        max-width: 100%;
+        text-align: center;
+        margin-top: 1em;
+    }
+}
