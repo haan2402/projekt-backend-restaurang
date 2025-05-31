@@ -51,7 +51,7 @@ nav a:hover {
 
 /*background image for startpage, and styling for startpage*/
 main {
-    background-image: url('images/start-pic.jpg');
+    background-image: url('../images/start-pic.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -94,4 +94,21 @@ button {
 button:hover {
     color: white;
     background-color: #A44400;
+}
+
+footer h3 {
+    color: #C85503;
+    margin-bottom: 0.8em;
+    font-size: 1.4em;
+}
+
+footer {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #232835;
+    padding: 1em;
+    color: white;
+    line-height: 1.2em;
 }
