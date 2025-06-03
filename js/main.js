@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
 //funktion för att hämta in mitt API och sedan skriva ut i DOM
 async function getData() {
     try {
-        const response = await fetch("http://localhost:3000/api/foodItems", {
+        const response = await fetch("projekt-backend-databas-production.up.railway.app/api/foodItems", {
             method: "GET",
             headers: {
                 'Content-Type': 'application/json'
