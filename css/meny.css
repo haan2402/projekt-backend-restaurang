@@ -136,7 +136,7 @@ footer {
     align-items: center;
     width: 100%;
     background-color: #232835;
-    padding: 1em;
+    padding: 2em;
     color: white;
     line-height: 1.2em;
 }
@@ -145,20 +145,28 @@ footer {
 @media (max-width: 768px) {
     header {
         flex-direction: column;
-        align-items: flex-start;
-        padding: 1em;
+        align-items: center;
+        text-align: center;
     }
 
     nav ul {
         flex-direction: row;
-        gap: 1.5em;
-        margin-left: 4em;
+        align-items: center;
+        gap: 1.2em;
+        margin: 0;
+        padding: 0;
+        font-size: 1em;
+    }
+
+    nav a {
+        font-size: 1.3em;
     }
 
     h1 {
-        margin-bottom: 0.5em;
-        margin-left: 5em;
-    } 
+        margin: 0 auto;
+        padding: 10px;
+        margin-bottom: 0.6em;
+    }
 
     .meny-container {
         flex-direction: column;
